@@ -15,7 +15,7 @@ var connection;
 // 	console.log('The solution is: ', rows[0].solution);
 // });
 
-connection.end();
+// connection.end();
 if (process.env.JAWSDB_URL) {
 	connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
